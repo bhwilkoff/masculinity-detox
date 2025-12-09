@@ -1,0 +1,32 @@
+#vikinger-meta-gallery-images {
+  margin-bottom: 12px;
+}
+
+.vikinger_gallery-images {
+  display: flex;
+  gap: 12px;
+}
+
+.vikinger_gallery-image {
+  width: 80px;
+  height: 80px;
+  position: relative;
+}
+
+.vikinger_remove-button {
+  padding: 4px;
+  border-radius: 4px;
+  background-color: #615dfa;
+  cursor: pointer;
+  position: absolute;
+  top: -4px;
+  right: -4px;
+}
+
+.vikinger_remove-button svg {
+  fill: #ffffff;
+  width: 8px;
+  height: 8px;
+  display: block;
+  pointer-events: none;
+}
